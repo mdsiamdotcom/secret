@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+   
+
+}
+body{
+    background: gainsboro;
+}
+#nav-header{
+    background: brown;
+}
+#list-items{
+    margin-top: 8px;
+    
+}
+#list-items a{
+    color: white;
+    
+}
+
+#dropdown:hover, #dropdown:focus{
+    background: brown;
+}
+
+#about{
+    width: 100%;
+    height: 500px;
+    background: burlywood;
+}
+.navbar-brand{
+   margin-top: 7px;
+  
+}
+.navbar-brand span{
+    color: white;
+    font-size: 40px;
+    text-align:center;
+}
+form #search-bar{
+    margin-top: 16px !important;
+}
+.navbar-text p{
+    color: white;
+}
+
+#client{
+    width:100%;
+    height: 500px;
+    background: peru;
+}
+textarea {
+    resize: none;
+    border: none;
+  }
+#blog .latest{
+    color: rgb(63, 134, 134);
+    padding: 5px;
+    box-shadow: 10px 10px 25px 5px grey;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
