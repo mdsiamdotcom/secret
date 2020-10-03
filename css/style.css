@@ -2,8 +2,11 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+input{
+    outline: none;
 }
 body{
     background: gainsboro;
@@ -13,11 +16,11 @@ body{
 }
 #list-items{
     margin-top: 8px;
-    
+
 }
 #list-items a{
     color: white;
-    
+
 }
 
 #dropdown:hover, #dropdown:focus{
@@ -31,7 +34,7 @@ body{
 }
 .navbar-brand{
    margin-top: 7px;
-  
+
 }
 .navbar-brand span{
     color: white;
@@ -64,4 +67,65 @@ textarea {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+textarea{
+    width: 100%;
+    line-height: 30px;
+    font-size: 45px;
+    outline: none;
+}
+textarea:focus{
+    outline: 1px solid grey;
+
+}
+.recent{
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.recent .recent-post{
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+img{
+    width: 25%;
+    padding: 5px;
+    max-height: 500px;
+}
+.recent .recent-1{
+    width: 70%;
+    padding: 10px;
+
+}
+@media (max-width:768px) {
+
+   .recent-post{
+      display: flex;
+      flex-direction: column;
+  }
+  img{
+      width: 100%;
+     
+  }
+   .recent-post .recent-1{
+      width: 100%;
+  }
+  .container .container-slide{
+      width: 70%;
+      margin: 0 auto;
+  } 
+}
+details{
+    padding:10px 20px;
+    background-color: grey;
+    display: inline-flex;
+    color: white;
+    font-size: 12px;
+
 }
